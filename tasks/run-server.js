@@ -3,6 +3,10 @@ const server = require("browser-sync");
 
 const { paths } = require("./constants");
 
+const html = require("./build-html");
+const css = require("./build-css");
+const js = require("./build-js");
+
 module.exports = function() {
   server({
     server: {
@@ -13,7 +17,11 @@ module.exports = function() {
     port: 9000
   });
 
-  watch([paths.watch.html], require("./build-html"));
-  watch([paths.watch.style], require("./build-css"));
-  watch([paths.watch.js], require("./build-js"));
+  html.displayName = "build:html";
+  css.displayName = "build:css";
+  js.displayName = "build:js";
+
+  watch([paths.watch.html], html);
+  watch([paths.watch.style], css);
+  watch([paths.watch.js], js);
 };
