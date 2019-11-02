@@ -1,1 +1,17 @@
-@import "./components/header";
+// Библиотеки
+@import "~normalize.css";
+
+// Все переменные для стилей
+:root {
+  --color-primary: #E3B873;
+  --color-dark: #131313;
+  --color-light: #FFFFFF;
+
+  --font-primary: FuturaBookC; // TODO: добавить еще шрифтов фолбэков
+  --font-secondary: Yeseva One; // TODO: добавить еще шрифтов фолбэков
+
+  --container-width: 1280px;
+}
+
+// Стили для компонентов
+@import "components";

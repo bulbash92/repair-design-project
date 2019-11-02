@@ -1,29 +1,32 @@
 module.exports = {
   company: "IC \"Repair Design Project\"",
-  phone: "+7 (928) 768-32-39",
+  phone: {
+    view: "+7 (928) 768-32-39",
+    href: "+79287683239"
+  },
   menu: [
     {
-      name: "Home",
+      view: "Home",
       href: "#home"
     },
     {
-      name: "Projects",
+      view: "Projects",
       href: "#projects"
     },
     {
-      name: "Measurements",
+      view: "Measurements",
       href: "#measurements"
     },
     {
-      name: "Team",
+      view: "Team",
       href: "#team"
     },
     {
-      name: "Reviews",
+      view: "Reviews",
       href: "#reviews"
     },
     {
-      name: "Contacts",
+      view: "Contacts",
       href: "#contacts"
     }
   ],

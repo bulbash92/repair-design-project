@@ -13,7 +13,7 @@ const paths = {
     src: {
 
         // Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
-        html: 'src/*.html',
+        html: 'src/*.twig',
 
         // В скриптах нам понадобятся только index файл
         js: 'src/index.js',
@@ -30,7 +30,7 @@ const paths = {
 
     // Тут мы укажем, за изменением каких файлов мы хотим наблюдать
     watch: {
-        html: 'src/**/*.html',
+        html: 'src/**/*.twig',
         js: 'src/**/*.js',
         style: 'src/**/*.scss',
         img: 'src/img/**/*.*',

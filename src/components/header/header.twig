@@ -1,0 +1,16 @@
+{# header.twig #}
+<header class="header">
+  <div class="container">
+    {% include '../logo/logo.twig' with { position: 'header__logo' } %}
+
+    {% include '../navigation/navigation.twig' with { position: 'header__navigation' } %}
+
+    <a class="header__phone-number" href="tel:{{ phone.href }}">
+      {{ phone.view }}
+    </a>
+
+    <button class="header__button button button--small button--primary">
+      REQUEST A CALL
+    </button>
+  </div>
+</header>

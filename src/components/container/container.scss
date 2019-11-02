@@ -1,0 +1,10 @@
+// Блок
+.container {
+  max-width: var(--container-width);
+}
+
+// Модификаторы
+.container--center {
+  margin-left: auto;
+  margin-right: auto;
+}
