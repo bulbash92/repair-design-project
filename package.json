@@ -1,0 +1,22 @@
+{
+  "name": "repair-design-project",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bulbash92/repair-design-project.git"
+  },
+  "author": "bulbash92",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bulbash92/repair-design-project/issues"
+  },
+  "homepage": "https://github.com/bulbash92/repair-design-project#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
