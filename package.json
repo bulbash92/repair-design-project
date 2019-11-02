@@ -3,8 +3,13 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.html",
+  "browserslist": [
+    "last 1 version"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "gulp watch:all",
+    "build": "gulp build:all",
+    "clean": "gulp clean:build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,15 @@
   },
   "homepage": "https://github.com/bulbash92/repair-design-project#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp-autoprefixer": "^7.0.1",
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-mustache": "^4.1.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-rimraf": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "prettier": "^1.18.2"
   }
 }
