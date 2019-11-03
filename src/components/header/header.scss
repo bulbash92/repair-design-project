@@ -7,4 +7,16 @@
     justify-content: space-between;
     height: 78px;
   }
+
+  &__phone-number {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 16px;
+
+    &:hover,
+    &:focus {
+      color: var(--color-light);
+    }
+  }
 }

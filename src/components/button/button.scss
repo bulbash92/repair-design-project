@@ -1,9 +1,30 @@
 // Блок
-.button {}
+.button {
+    font-family: var(--font-primary);
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: var(--color-light);
+    padding: 12px 33px;
+    border: none;
+    
+    &:hover,
+    &:focus {
+      background: transparent;
+      border: 2px solid #ffffff;
+      outline: none;
+    }
+}
 
 // Модификаторы
-.button--primary {}
+.button--primary {
+    background-color: var(--color-primary);
+}
 .button--secondary {}
-.button--small {}
+.button--small {
+    padding: 12px 33px;
+}
 .button--large {}
 .button--text-left {}
