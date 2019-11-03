@@ -12,8 +12,10 @@
     font-size: 14px;
     line-height: 16px;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: var(--color-primary);
+      outline: none;
     }
   }
 }
