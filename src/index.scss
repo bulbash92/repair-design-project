@@ -1,14 +1,35 @@
 // Библиотеки
 @import "~normalize.css";
 
+// Шрифты
+@font-face {
+  font-family: "Yeseva One";
+  src: local("Yeseva One"), local("YesevaOne"),
+    url("./fonts/yesevaone.woff2") format("woff2"),
+    url("./fonts/yesevaone.woff") format("woff"),
+    url("./fonts/yesevaone.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura-Book С";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Futura-Book"), local("FuturaBookC"),
+    url("./fonts/futurabookc.woff") format("woff"),
+    url("./fonts/futurabookc.otf") format("otf"),
+    url("./fonts/futurabookc.ttf") format("truetype");
+}
+
 // Все переменные для стилей
 :root {
-  --color-primary: #E3B873;
+  --color-primary: #e3b873;
   --color-dark: #131313;
-  --color-light: #FFFFFF;
+  --color-light: #ffffff;
 
-  --font-primary: FuturaBookC, Montserrat, Helvetica; // TODO: добавить еще шрифтов фолбэков
-  --font-secondary: Yeseva One, Montserrat, Helvetica; // TODO: добавить еще шрифтов фолбэков
+  --font-primary: FuturaBookC, Helvetica, Sans;
+  --font-secondary: Yeseva One, Helvetica, Arial;
 
   --container-width: 1280px;
 }

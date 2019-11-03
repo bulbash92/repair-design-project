@@ -5,7 +5,7 @@ const paths = {
     // Тут мы укажем куда складывать готовые после сборки файлы
     build: {
         root: 'build/',
-        img: 'build/img/',
+        images: 'build/images/',
         fonts: 'build/fonts/'
     },
 
@@ -22,7 +22,7 @@ const paths = {
         css: 'src/index.scss',
 
         // Синтаксис img/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
-        img: 'src/img/**/*.*',
+        images: 'src/img/**/*.*',
 
         // Синтаксис fonts/**/*.* означает - взять все файлы всех расширений из папки и из вложенных каталогов
         fonts: 'src/fonts/**/*.*'
@@ -32,8 +32,8 @@ const paths = {
     watch: {
         html: 'src/**/*.twig',
         js: 'src/**/*.js',
-        style: 'src/**/*.scss',
-        img: 'src/img/**/*.*',
+        css: 'src/**/*.scss',
+        images: 'src/images/**/*.*',
         fonts: 'src/fonts/**/*.*'
     },
 
