@@ -22,9 +22,14 @@
 .button--primary {
     background-color: var(--color-primary);
 }
-.button--secondary {}
+.button--secondary {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+}
 .button--small {
     padding: 12px 33px;
 }
-.button--large {}
+.button--large {
+    padding: 17px 41px;
+}
 .button--text-left {}
