@@ -6,7 +6,7 @@ const server = require("browser-sync");
 const { paths } = require("./constants");
 
 module.exports = function() {
-  return src(path.src.images)
+  return src(paths.src.images)
     .pipe(
       imagemin({
         progressive: true,

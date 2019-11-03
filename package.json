@@ -12,6 +12,7 @@
     }
   },
   "scripts": {
+    "pretty": "pretty-quick --staged",
     "build": "gulp build",
     "watch": "gulp build && gulp watch",
     "clean": "gulp build && gulp clean"

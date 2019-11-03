@@ -8,14 +8,10 @@
     url("./fonts/yesevaone.woff2") format("woff2"),
     url("./fonts/yesevaone.woff") format("woff"),
     url("./fonts/yesevaone.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "Futura-Book С";
-  font-style: normal;
-  font-weight: normal;
   src: local("Futura-Book"), local("FuturaBookC"),
     url("./fonts/futurabookc.woff") format("woff"),
     url("./fonts/futurabookc.otf") format("otf"),
@@ -28,7 +24,7 @@
   --color-dark: #131313;
   --color-light: #ffffff;
 
-  --font-primary: FuturaBookC, Helvetica, Sans;
+  --font-primary: Futura-Book С, Helvetica, Sans;
   --font-secondary: Yeseva One, Helvetica, Arial;
 
   --container-width: 1280px;
