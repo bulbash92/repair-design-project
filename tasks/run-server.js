@@ -3,8 +3,8 @@ const server = require("browser-sync");
 
 const { paths } = require("./constants");
 
-const images = require('./build-images');
-const fonts = require('./build-fonts');
+const images = require("./build-images");
+const fonts = require("./build-fonts");
 const html = require("./build-html");
 const css = require("./build-css");
 const js = require("./build-js");
