@@ -1,19 +1,10 @@
 .header {
   background-color: var(--color-dark);
 
-  &__logo {
-
-  }
-
-  &__navigation {
-
-  }
-
-  &__phone-number {
-
-  }
-
-  &__button {
-
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 78px;
   }
 }
