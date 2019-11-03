@@ -12,7 +12,7 @@
     }
   },
   "scripts": {
-    "pretty": "prettier --write './*/**/*'",
+    "pretty": "prettier --write ./*/**",
     "build": "gulp build",
     "watch": "gulp build && gulp watch",
     "clean": "gulp build && gulp clean"
