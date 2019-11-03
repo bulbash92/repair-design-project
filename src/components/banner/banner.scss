@@ -1,12 +1,19 @@
 .banner {
-  background-color: gray;
-  max-width: 600px;
+  background-image: url(images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-width: 600px;
+  height: 660px;
 
   &__container {
+    width: 600px;
+    padding-top: 180px;
+    padding-left: 60px;
   }
 
   &__title {
-    font-family: Yeseva One;
+    font-family: var(--font-secondary);
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -18,5 +25,17 @@
     & span {
       color: var(--color-primary);
     }
+  }
+  & p {
+    font-family: var(--font-primary);
+    font-size: 22px;
+    line-height: 30px;
+    color: var(--color-light);
+    width: 500px;
+    height: 83px;
+  }
+  .button {
+    margin-top: 38px;
+    margin-right: 20px;
   }
 }
