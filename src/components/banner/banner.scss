@@ -1,21 +1,22 @@
 .banner {
-    background-color: gray;
-    max-width: 600px;
+  background-color: gray;
+  max-width: 600px;
 
-    &__container {}
+  &__container {
+  }
 
-    &__title {
-        font-family: Yeseva One;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 40px;
-        line-height: 53px;
-        text-transform: uppercase;
-        color: var(--color-light);
-        margin: 0;
+  &__title {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: var(--color-light);
+    margin: 0;
 
-        & span {
-            color: var(--color-primary);
-        }
+    & span {
+      color: var(--color-primary);
     }
+  }
 }
