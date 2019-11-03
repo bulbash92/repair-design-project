@@ -1,11 +1,11 @@
-const { src, dest } = require('gulp');
+const { src, dest } = require("gulp");
 const sourcemaps = require("gulp-sourcemaps");
 const minify = require("gulp-uglify");
 const server = require("browser-sync");
 
-const { paths } = require('./constants');
+const { paths } = require("./constants");
 
-module.exports = function () {
+module.exports = function() {
   return src(paths.src.js)
     .pipe(sourcemaps.init())
     .pipe(minify())
