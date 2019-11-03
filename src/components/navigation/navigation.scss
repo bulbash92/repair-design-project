@@ -1,0 +1,19 @@
+// Блок
+.navigation {
+  display: flex;
+  min-width: 600px;
+  justify-content: space-around;
+
+  &__item {
+    font-family: var(--font-primary);
+    color: var(--color-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16px;
+
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+}
