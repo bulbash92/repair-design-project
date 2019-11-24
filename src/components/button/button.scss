@@ -9,6 +9,7 @@
   color: var(--color-light);
   padding: 12px 33px;
   border: 1px solid var(--color-primary);
+  cursor: pointer;
 
   &:hover,
   &:focus {
@@ -24,10 +25,19 @@
 }
 .button--secondary {
 }
+.button--secondary {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+}
 .button--small {
   padding: 12px 33px;
 }
 .button--large {
+}
+.button--text-left {
+}
+.button--large {
+  padding: 17px 41px;
 }
 .button--text-left {
 }
