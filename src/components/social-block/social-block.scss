@@ -1,0 +1,31 @@
+.social-block {
+  display: flex;
+  align-items: center;
+  width: 5.8%;
+  height: 660px;
+  background-color: var(--color-dark);
+
+  &__link {
+    width: 125px;
+    display: inline-block;
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    transform: rotate(90deg);
+
+    position: relative;
+
+    &::after {
+      content: "";
+      width: 2px;
+      height: 51px;
+      background-color: var(--color-primary);
+      position: absolute;
+      top: -16px;
+      right: -46px;
+      transform: rotate(90deg);
+    }
+  }
+}
