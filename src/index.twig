@@ -11,7 +11,9 @@
 </head>
 <body>
     {% include 'components/header/header.twig' %}
-    {% include 'components/banner/banner.twig' %}
-    {% include 'components/social-block/social-block.twig' %}
+    <div class="main-container">
+        {% include 'components/social-block/social-block.twig' %}
+        {% include 'components/banner/banner.twig' %}
+    </div>
 </body>
 </html>
