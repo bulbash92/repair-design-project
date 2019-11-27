@@ -1,11 +1,11 @@
 .slider {
   display: flex;
+  justify-content: space-between;
   background-color: var(--color-dark);
-  width: 100vw;
 }
 
 .slide {
-  width: 442px;
+  min-width: 442px;
 
   &__title {
     color: var(--color-primary);
@@ -14,10 +14,12 @@
     font-weight: normal;
     font-size: 27px;
     line-height: 37px;
-    margin: 0;
+    margin-top: 209px;
+    margin-left: 123px;
   }
 
   &__description {
+    width: 440px;
     color: var(--color-light);
     font-family: var(--font-primary);
     font-size: 18px;
@@ -51,8 +53,9 @@
 
   &__list {
     display: flex;
-    justify-content: space-between;
+
     list-style: none;
+    padding: 0;
 
     &-link {
       color: var(--color-primary);
@@ -73,10 +76,24 @@
         bottom: 0;
         left: 0;
         position: absolute;
+
+        &:hover,
+        &:focus {
+          color: var(--color-light);
+        }
       }
     }
   }
+
+  &__images {
+    display: flex;
+
+    &-item {
+      margin-right: 10px;
+    }
+  }
 }
+
 .disabled {
   color: rgba(255, 255, 255, 0.3);
   pointer-events: none;
